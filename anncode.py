@@ -52,4 +52,6 @@ words = sorted(set(words))
 # Remove duplicates and sord classes
 classes = sorted(set(classes))
 
-print(f"\n Total words in intents is : {len(words)}")
+# Save workds and classes to pickle files
+pickle.dump(words, open("words.pkl", "wb"))
+pickle.dump(classes, open("classes.pkl", "wb"))
