@@ -1,0 +1,207 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up",
+                "howdy",
+                "hi there"
+            ],
+            "responses": [
+                "Hello! I can help you find great places to eat in the city of southampton. What cuisine are you craving?",
+                "Hey there! Looking for a place to eat? I can help!",
+                "Hi! I'm your food guide. What type of food would you like today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "see ya",
+                "later",
+                "have a nice day",
+                "bye bye",
+                "catch you later"
+            ],
+            "responses": [
+                "Goodbye! Enjoy your meal!",
+                "See you later! Hope you find something delicious!",
+                "Bye! Come back if you need more food recommendations!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you",
+                "thanks",
+                "appreciate it",
+                "thank you so much",
+                "thanks a lot",
+                "cheers"
+            ],
+            "responses": [
+                "You're welcome! Enjoy your meal!",
+                "Happy to help! Bon appétit!",
+                "No problem! Hope you have a great dining experience!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "can you help me",
+                "what can you do",
+                "how does this work",
+                "assist me"
+            ],
+            "responses": [
+                "I can help you find restaurants for different cuisines in the city! Just tell me what you're craving - English, Nigerian, Indian, Chinese, Italian, or Mexican food.",
+                "I'm here to guide you to the best restaurants! Ask me about English, Nigerian, Indian, Chinese, Italian, or Mexican cuisine."
+            ]
+        },
+        {
+            "tag": "english_food",
+            "patterns": [
+                "english food",
+                "british food",
+                "english breakfast",
+                "fish and chips",
+                "where can i get english food",
+                "english restaurant",
+                "british restaurant",
+                "full english",
+                "sunday roast"
+            ],
+            "responses": [
+                "For authentic English food, I recommend 'The British Corner' on High Street - they serve excellent full English breakfasts and Sunday roasts!",
+                "Try 'London Tavern' on Main Avenue for classic fish and chips and traditional English fare.",
+                "Check out 'Royal Oak Pub' near the city center for proper British cuisine including shepherd's pie and bangers and mash."
+            ]
+        },
+        {
+            "tag": "nigerian_food",
+            "patterns": [
+                "nigerian food",
+                "nigerian restaurant",
+                "where can i get nigerian food",
+                "jollof rice",
+                "suya",
+                "pounded yam",
+                "egusi soup",
+                "african food"
+            ],
+            "responses": [
+                "For delicious Nigerian food, visit 'Lagos Kitchen' on Market Street - they make amazing jollof rice and suya!",
+                "I recommend 'Naija Flavours' in the downtown area for authentic pounded yam, egusi soup, and other Nigerian delicacies.",
+                "Try 'Afro Bites' on West Road - they specialize in Nigerian cuisine with excellent pepper soup and plantains!"
+            ]
+        },
+        {
+            "tag": "indian_food",
+            "patterns": [
+                "indian food",
+                "indian restaurant",
+                "where can i get indian food",
+                "curry",
+                "biryani",
+                "naan",
+                "tandoori",
+                "masala",
+                "indian cuisine"
+            ],
+            "responses": [
+                "For authentic Indian cuisine, check out 'Taj Palace' on Station Road - their chicken tikka masala and biryani are fantastic!",
+                "I recommend 'Spice of India' near the shopping center for delicious curries and fresh naan bread.",
+                "Visit 'Maharaja Restaurant' on Bridge Street for excellent tandoori dishes and vegetarian options."
+            ]
+        },
+        {
+            "tag": "chinese_food",
+            "patterns": [
+                "chinese food",
+                "chinese restaurant",
+                "where can i get chinese food",
+                "dim sum",
+                "noodles",
+                "fried rice",
+                "sweet and sour",
+                "chinese cuisine",
+                "chow mein"
+            ],
+            "responses": [
+                "For great Chinese food, try 'Golden Dragon' on Park Lane - their dim sum and Peking duck are exceptional!",
+                "I recommend 'Ming's Kitchen' in the east district for authentic Chinese noodles and fried rice dishes.",
+                "Check out 'China Garden' on River Street for delicious sweet and sour pork and chow mein."
+            ]
+        },
+        {
+            "tag": "italian_food",
+            "patterns": [
+                "italian food",
+                "italian restaurant",
+                "where can i get italian food",
+                "pizza",
+                "pasta",
+                "spaghetti",
+                "lasagna",
+                "italian cuisine",
+                "carbonara"
+            ],
+            "responses": [
+                "For authentic Italian cuisine, visit 'La Trattoria' on Elm Street - their homemade pasta and wood-fired pizza are amazing!",
+                "I recommend 'Bella Italia' near the town square for excellent lasagna and carbonara.",
+                "Try 'Mama Rosa's' on Grove Avenue for traditional Italian dishes and the best tiramisu in town!"
+            ]
+        },
+        {
+            "tag": "mexican_food",
+            "patterns": [
+                "mexican food",
+                "mexican restaurant",
+                "where can i get mexican food",
+                "tacos",
+                "burritos",
+                "enchiladas",
+                "quesadilla",
+                "mexican cuisine",
+                "nachos"
+            ],
+            "responses": [
+                "For delicious Mexican food, check out 'El Sombrero' on Beach Road - their tacos and burritos are incredible!",
+                "I recommend 'Cantina Mexicana' in the city center for authentic enchiladas and fresh guacamole.",
+                "Visit 'Taco Fiesta' on Oak Street for the best quesadillas and nachos around!"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "what cuisines",
+                "what food types",
+                "what options",
+                "what do you have",
+                "show me options",
+                "list cuisines",
+                "what kind of food"
+            ],
+            "responses": [
+                "I can help you find restaurants for these cuisines: English, Nigerian, Indian, Chinese, Italian, and Mexican food. What are you in the mood for?",
+                "We have recommendations for English, Nigerian, Indian, Chinese, Italian, and Mexican restaurants. Which one interests you?"
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [],
+            "responses": [
+                "I'm not sure I understood that. I can help you find English, Nigerian, Indian, Chinese, Italian, or Mexican restaurants. Which would you like?",
+                "Could you rephrase that? Ask me about where to get English, Nigerian, Indian, Chinese, Italian, or Mexican food!"
+            ]
+        }
+    ]
+}
