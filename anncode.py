@@ -9,6 +9,7 @@ from nltk.stem import WordNetLemmatizer
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
+from tensorflow.keras.optimizers import SGD
 
 # Download nltk punk
 nltk.download("punkt_tab")
@@ -91,8 +92,11 @@ random.shuffle(training)
 training = np.array(training, dtype=object)
 
 # split training data to train and test i.e X,y
-train_x = list(training[:, 0])
-train_y = list(training[:, 1])
+# train_x = list(training[:, 0])
+# train_y = list(training[:, 1])
+
+train_x = np.array([item[0] for item in training], dtype="float32")
+train_y = np.array([item[1] for item in training], dtype="float32")
 
 
 # Build the ANN model
@@ -119,3 +123,22 @@ model.add(Dense(len(train_y[0]), activation="softmax"))
 
 print("\n Model created")
 model.summary()
+
+# Add model optimizer
+sgd = SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
+
+# compile model
+model.compile(loss="categorical_crossentropy", optimizer=sgd, metrics=["accuracy"])
+
+# Train model
+history = model.fit(train_x, train_y, epochs=200, batch_size=5, verbose=1)
+
+# save model and history
+
+model.save("chatbot_model.keras")
+
+with open("training_history.json", "w", encoding="utf-8") as f:
+    json.dump(history.history, f, ensure_ascii=False, indent=2)
+
+
+print("Training completed and model saved to 'chatbot_mode.keras'")
