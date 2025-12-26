@@ -1,4 +1,5 @@
 import streamlit as st
+from tensorflow.keras.models import load_model
 
 print("Script is running")
 
@@ -33,3 +34,13 @@ bot_response = f"You said : {user_input}"
 st.session_state.messages.append({"role": "assistant", "content": bot_response})
 
 # st.rerun()
+
+
+# Cache model loading so as to improve performance
+@st.cache_resource
+def load_model():
+    model = load_model("chatbot_model.keras")
+    return model
+
+
+model = load_model()
