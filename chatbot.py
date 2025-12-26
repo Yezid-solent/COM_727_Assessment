@@ -58,9 +58,17 @@ def get_response(intents_list, intents_json):
 
 
 print("Food Scout Chatbot is here!")
+print("Enter 'quit' to exit ")
+print("=" * 50)
+print()
 
 while True:
     message = input("You: ")
+    if message.lower() == "quit":
+        print("Bot: Goodbye! enjoy your meal!")
+        break
     ints = predict_class(message)
     res = get_response(ints, intents)
-    print(res)
+
+    print(f"Bot: {res}")
+    print()
