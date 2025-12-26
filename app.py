@@ -1,5 +1,10 @@
 import streamlit as st
 from tensorflow.keras.models import load_model
+import json
+import pickle
+import numpy as np
+import nltk
+from nltk.stem import WordNetLemmatizer
 
 print("Script is running")
 
@@ -15,6 +20,21 @@ st.markdown(
 """,
     unsafe_allow_html=True,
 )
+
+
+# Load model
+@st.cache_resource
+def load_chatbot_resources():
+    lemmatizer = WordNetLemmatizer()
+    intents = json.load(open("intents.json"))
+    words = pickle.load(open("words.pkl", "rb"))
+    classes = pickle.load(open("classes.pkl", "rb"))
+    model = load_model("chatbot_model.keras")
+    return lemmatizer, intents, words, classes, model
+
+
+lemmatizer, intents, words, classes, model = load_chatbot_resources()
+
 
 # # Display message from bot
 
@@ -47,13 +67,3 @@ bot_response = f"You said : {user_input}"
 st.session_state.messages.append({"role": "assistant", "content": bot_response})
 
 # st.rerun()
-
-
-# Cache model loading so as to improve performance
-@st.cache_resource
-def load_my_model():
-    model = load_model("chatbot_model.keras")
-    return model
-
-
-model = load_my_model()
