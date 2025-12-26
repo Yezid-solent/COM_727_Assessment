@@ -3,6 +3,19 @@ from tensorflow.keras.models import load_model
 
 print("Script is running")
 
+st.set_page_config(page_title="Cuisine Guide Chatbot", page_icon="🍽️", layout="centered")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #f0f2f6;
+    }
+    ...
+    </style>
+""",
+    unsafe_allow_html=True,
+)
+
 # # Display message from bot
 
 # with st.chat_message("assistant"):
@@ -38,9 +51,9 @@ st.session_state.messages.append({"role": "assistant", "content": bot_response})
 
 # Cache model loading so as to improve performance
 @st.cache_resource
-def load_model():
+def load_my_model():
     model = load_model("chatbot_model.keras")
     return model
 
 
-model = load_model()
+model = load_my_model()
