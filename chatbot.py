@@ -32,6 +32,8 @@ def bag_of_words(sentence):
     return np.array(bag)
 
 
+# Predict the intent of the user's message and return the list
+# of intents above the error threshold
 def predict_class(sentence):
     bow = bag_of_words(
         sentence
@@ -57,18 +59,22 @@ def get_response(intents_list, intents_json):
     return result
 
 
-print("Food Scout Chatbot is here!")
-print("Enter 'quit' to exit ")
-print("=" * 50)
-print()
+# Add main program to only run when this file is executed directly for terminal
+# This is to make the other functions here importable in the web interface
 
-while True:
-    message = input("You: ")
-    if message.lower() == "quit":
-        print("Bot: Goodbye! enjoy your meal!")
-        break
-    ints = predict_class(message)
-    res = get_response(ints, intents)
-
-    print(f"Bot: {res}")
+if __name__ == "__main__":
+    print("Food Scout Chatbot is here!")
+    print("Enter 'quit' to exit ")
+    print("=" * 50)
     print()
+
+    while True:
+        message = input("You: ")
+        if message.lower() == "quit":
+            print("Bot: Goodbye! enjoy your meal!")
+            break
+        ints = predict_class(message)
+        res = get_response(ints, intents)
+
+        print(f"Bot: {res}")
+        print()
