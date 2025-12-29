@@ -11,9 +11,36 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import SGD
 
-# Download nltk punk
-nltk.download("punkt_tab")
-nltk.download("wordnet")
+import os
+from pathlib import Path
+
+from nltk.corpus import stopwords
+
+# Download nltk punk data
+
+# --- NLTK resources (robust) ---
+NLTK_DIR = os.path.join(os.path.expanduser("~"), "nltk_data")
+os.makedirs(NLTK_DIR, exist_ok=True)
+nltk.data.path.append(NLTK_DIR)
+
+
+def ensure_nltk():
+    needed = {
+        "punkt": "tokenizers/punkt",
+        "punkt_tab": "tokenizers/punkt_tab",  # it necessary  at some versions
+        "wordnet": "corpora/wordnet",
+        "omw-1.4": "corpora/omw-1.4",
+        "stopwords": "corpora/stopwords",
+    }
+    for pkg, locator in needed.items():
+        try:
+            nltk.data.find(locator)
+        except LookupError:
+            nltk.download(pkg, download_dir=NLTK_DIR)
+
+
+ensure_nltk()
+
 # Initialize the lemmatizer
 lemmatizer = WordNetLemmatizer()
 
