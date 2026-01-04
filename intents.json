@@ -68,7 +68,7 @@
         },
         {
             "tag": "english_food",
-            "patterns": [
+            "patterns": [ 
                 "english food",
                 "british food",
                 "english breakfast",
@@ -80,6 +80,13 @@
                 "sunday roast"
             ],
             "responses": [
+                "Bellemoor Tavern:250 Hill Lane Shirley",
+                "old Famous House:Ringwood Road",
+                "Salmon leap Pub:Testwood Lane Totton",
+                "Revolution Southampton:Bedford place ",
+                "Bills Southampton:Westquay South",
+                "The Rockstone:Onslow Road",
+
                 "For authentic English food, I recommend 'The British Corner' on High Street - they serve excellent full English breakfasts and Sunday roasts!",
                 "Try 'London Tavern' on Main Avenue for classic fish and chips and traditional English fare.",
                 "Check out 'Royal Oak Pub' near the city center for proper British cuisine including shepherd's pie and bangers and mash."
@@ -98,6 +105,13 @@
                 "african food"
             ],
             "responses": [
+                "Afritopia: St Mary's Place",
+                "Elmina Bars & Lounge: Bevois Valley Road",
+                "Deluxe One: Oxford Street",
+                "Eti Food: 66 Radcliffe Road",
+                "JoyD Kitchen: Hampshire postcode",
+
+        
                 "For delicious Nigerian food, visit 'Lagos Kitchen' on Market Street - they make amazing jollof rice and suya!",
                 "I recommend 'Naija Flavours' in the downtown area for authentic pounded yam, egusi soup, and other Nigerian delicacies.",
                 "Try 'Afro Bites' on West Road - they specialize in Nigerian cuisine with excellent pepper soup and plantains!"
@@ -117,6 +131,13 @@
                 "indian cuisine"
             ],
             "responses": [
+                "Tandoor : The Bridge way",
+                "Everest Cuisine: Queensway Southampton",
+                "PadHaro Indian Restaurant: East Street",
+                "Tap&Tandoor:West quay Road",
+                "Bayleaf Kitchen:56 High Street",
+                "Jewels:Town Hill way west end",
+
                 "For authentic Indian cuisine, check out 'Taj Palace' on Station Road - their chicken tikka masala and biryani are fantastic!",
                 "I recommend 'Spice of India' near the shopping center for delicious curries and fresh naan bread.",
                 "Visit 'Maharaja Restaurant' on Bridge Street for excellent tandoori dishes and vegetarian options."
