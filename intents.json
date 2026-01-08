@@ -159,7 +159,12 @@
             "responses": [
                 "For great Chinese food, try 'Golden Dragon' on Park Lane - their dim sum and Peking duck are exceptional!",
                 "I recommend 'Ming's Kitchen' in the east district for authentic Chinese noodles and fried rice dishes.",
-                "Check out 'China Garden' on River Street for delicious sweet and sour pork and chow mein."
+                "Check out 'China Garden' on River Street for delicious sweet and sour pork and chow mein." , 
+                "You can also try 'Shanghai 1814 Restaurant' on the High Street near the Bargate. From the city centre, walk south along High St, it’s on your right" ,
+                "Best first visit dish try Peking Duck beautifully presented and one of their signature dishes" ,
+                "For great Chinese Traditional cousin, try 'Shanghai Bay' Situated on Above Bar Street, just a short walk from Westquay Shopping Centre for authentic Sweet & Sour Chicken Hong Kong Style, a classic done very well here." ,
+
+
             ]
         },
         {
@@ -178,7 +183,10 @@
             "responses": [
                 "For authentic Italian cuisine, visit 'La Trattoria' on Elm Street - their homemade pasta and wood-fired pizza are amazing!",
                 "I recommend 'Bella Italia' near the town square for excellent lasagna and carbonara.",
-                "Try 'Mama Rosa's' on Grove Avenue for traditional Italian dishes and the best tiramisu in town!"
+                "Try 'Mama Rosa's' on Grove Avenue for traditional Italian dishes and the best tiramisu in town!", 
+                "You can check with 'La Tavernetta Italian Restaurant' Opposite the Guildhall. From Above Bar Street, walk toward the Civic Centre and you will find it just behind the main square,try their Spaghetti Carbonara  creamy, traditional, and highly rated for a feel of the Italian kitchen" ,
+                "For a classic, homely Italian favourite done exceptionally well, try 'Piccolo Mondo', located at 36 Windsor Terrace, Southampton"
+            ]
             ]
         },
         {
@@ -213,7 +221,8 @@
             ],
             "responses": [
                 "I can help you find restaurants for these cuisines: English, Nigerian, Indian, Chinese, Italian, and Mexican food. What are you in the mood for?",
-                "We have recommendations for English, Nigerian, Indian, Chinese, Italian, and Mexican restaurants. Which one interests you?"
+                "We have recommendations for English, Nigerian, Indian, Chinese, Italian, and Mexican restaurants. Which one interests you?", 
+                "For rich, juicy Mexican Cousin, try Birria Tacos by 'Mexifun', located at 121 East St, Southampton" 
             ]
         },
         {
