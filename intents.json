@@ -68,7 +68,7 @@
         },
         {
             "tag": "english_food",
-            "patterns": [ 
+            "patterns": [
                 "english food",
                 "british food",
                 "english breakfast",
@@ -86,7 +86,6 @@
                 "Revolution Southampton:Bedford place ",
                 "Bills Southampton:Westquay South",
                 "The Rockstone:Onslow Road",
-
                 "For authentic English food, I recommend 'The British Corner' on High Street - they serve excellent full English breakfasts and Sunday roasts!",
                 "Try 'London Tavern' on Main Avenue for classic fish and chips and traditional English fare.",
                 "Check out 'Royal Oak Pub' near the city center for proper British cuisine including shepherd's pie and bangers and mash."
@@ -110,8 +109,6 @@
                 "Deluxe One: Oxford Street",
                 "Eti Food: 66 Radcliffe Road",
                 "JoyD Kitchen: Hampshire postcode",
-
-        
                 "For delicious Nigerian food, visit 'Lagos Kitchen' on Market Street - they make amazing jollof rice and suya!",
                 "I recommend 'Naija Flavours' in the downtown area for authentic pounded yam, egusi soup, and other Nigerian delicacies.",
                 "Try 'Afro Bites' on West Road - they specialize in Nigerian cuisine with excellent pepper soup and plantains!"
@@ -137,7 +134,6 @@
                 "Tap&Tandoor:West quay Road",
                 "Bayleaf Kitchen:56 High Street",
                 "Jewels:Town Hill way west end",
-
                 "For authentic Indian cuisine, check out 'Taj Palace' on Station Road - their chicken tikka masala and biryani are fantastic!",
                 "I recommend 'Spice of India' near the shopping center for delicious curries and fresh naan bread.",
                 "Visit 'Maharaja Restaurant' on Bridge Street for excellent tandoori dishes and vegetarian options."
@@ -159,12 +155,10 @@
             "responses": [
                 "For great Chinese food, try 'Golden Dragon' on Park Lane - their dim sum and Peking duck are exceptional!",
                 "I recommend 'Ming's Kitchen' in the east district for authentic Chinese noodles and fried rice dishes.",
-                "Check out 'China Garden' on River Street for delicious sweet and sour pork and chow mein." , 
-                "You can also try 'Shanghai 1814 Restaurant' on the High Street near the Bargate. From the city centre, walk south along High St, it’s on your right" ,
-                "Best first visit dish try Peking Duck beautifully presented and one of their signature dishes" ,
-                "For great Chinese Traditional cousin, try 'Shanghai Bay' Situated on Above Bar Street, just a short walk from Westquay Shopping Centre for authentic Sweet & Sour Chicken Hong Kong Style, a classic done very well here. Best for first visit try." ,
-
-
+                "Check out 'China Garden' on River Street for delicious sweet and sour pork and chow mein.",
+                "You can also try 'Shanghai 1814 Restaurant' on the High Street near the Bargate. From the city centre, walk south along High St, it’s on your right",
+                "Best first visit dish try Peking Duck beautifully presented and one of their signature dishes",
+                "For great Chinese Traditional cousin, try 'Shanghai Bay' Situated on Above Bar Street, just a short walk from Westquay Shopping Centre for authentic Sweet & Sour Chicken Hong Kong Style, a classic done very well here. Best for first visit try.",
             ]
         },
         {
@@ -183,10 +177,9 @@
             "responses": [
                 "For authentic Italian cuisine, visit 'La Trattoria' on Elm Street - their homemade pasta and wood-fired pizza are amazing!",
                 "I recommend 'Bella Italia' near the town square for excellent lasagna and carbonara.",
-                "Try 'Mama Rosa's' on Grove Avenue for traditional Italian dishes and the best tiramisu in town!", 
-                "You can check with 'La Tavernetta Italian Restaurant' Opposite the Guildhall. From Above Bar Street, walk toward the Civic Centre and you will find it just behind the main square,try their Spaghetti Carbonara  creamy, traditional, and highly rated for a feel of the Italian kitchen" ,
+                "Try 'Mama Rosa's' on Grove Avenue for traditional Italian dishes and the best tiramisu in town!",
+                "You can check with 'La Tavernetta Italian Restaurant' Opposite the Guildhall. From Above Bar Street, walk toward the Civic Centre and you will find it just behind the main square,try their Spaghetti Carbonara  creamy, traditional, and highly rated for a feel of the Italian kitchen",
                 "For a classic, homely Italian favourite done exceptionally well, try 'Piccolo Mondo', located at 36 Windsor Terrace, Southampton"
-            ]
             ]
         },
         {
@@ -205,9 +198,9 @@
             "responses": [
                 "For delicious Mexican food, check out 'El Sombrero' on Beach Road - their tacos and burritos are incredible!",
                 "I recommend 'Cantina Mexicana' in the city center for authentic enchiladas and fresh guacamole.",
-                "Visit 'Taco Fiesta' on Oak Street for the best quesadillas and nachos around!", 
-                "You can also try 'Mamacitas' located at Carlto Place for the best loaded nachos", 
-                "For rich, juicy Mexican Cousin, try Birria Tacos by 'Mexifun', located at 121 East St, Southampton", 
+                "Visit 'Taco Fiesta' on Oak Street for the best quesadillas and nachos around!",
+                "You can also try 'Mamacitas' located at Carlto Place for the best loaded nachos",
+                "For rich, juicy Mexican Cousin, try Birria Tacos by 'Mexifun', located at 121 East St, Southampton",
                 "You can check 'Las Iguanas' located at 23 Harbour Parade, their Xinxim, a Brazilian-inspired creamy chicken dish that's hugely popular is a must try on a first vist"
             ]
         },
@@ -224,8 +217,7 @@
             ],
             "responses": [
                 "I can help you find restaurants for these cuisines: English, Nigerian, Indian, Chinese, Italian, and Mexican food. What are you in the mood for?",
-                "We have recommendations for English, Nigerian, Indian, Chinese, Italian, and Mexican restaurants. Which one interests you?" 
-                
+                "We have recommendations for English, Nigerian, Indian, Chinese, Italian, and Mexican restaurants. Which one interests you?"
             ]
         },
         {
