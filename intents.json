@@ -1,4 +1,3 @@
-
 {
     "intents": [
         {
@@ -11,7 +10,7 @@
                 "greetings",
                 "what's up",
                 "howdy",
-                "hi there", 
+                "hi there",
                 "hello there",
                 "good morning",
                 "good afternoon",
@@ -254,7 +253,7 @@
                 "Visit 'The Red Lion' in the city centre for classic British pub food. Their shepherd's pie and bangers and mash are legendary among locals. Great atmosphere too!",
                 "For upscale British dining, 'The Pig in the Wall' near the historic walls offers modern English cuisine with locally sourced ingredients. Their tasting menu is fantastic!",
                 "Looking for fish and chips? 'The Blue Anchor' on Oxford Street has been voted best in Southampton for three years running. Try their haddock with curry sauce!"
-                    ]
+            ]
         },
         {
             "tag": "nigerian_food",
@@ -309,7 +308,7 @@
                 "nigerian restaurant recommendations",
                 "nigerian food in portswood",
                 "nigerian food city centre"
-                    ],
+            ],
             "responses": [
                 "For delicious Nigerian food, visit 'Lagos Kitchen' on Market Street - they make amazing jollof rice and suya!",
                 "I recommend 'Naija Flavours' in the downtown area for authentic pounded yam, egusi soup, and other Nigerian delicacies.",
@@ -479,7 +478,7 @@
                 "lasagna",
                 "italian cuisine",
                 "carbonara",
-                 "i want italian food",
+                "i want italian food",
                 "looking for italian restaurant",
                 "best italian food in southampton",
                 "where to get pizza",
