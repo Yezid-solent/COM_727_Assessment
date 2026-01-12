@@ -69,7 +69,6 @@ st.markdown(
 )
 
 
-
 # Load model
 @st.cache_resource
 def load_chatbot_resources():
@@ -96,6 +95,19 @@ if "messages" not in st.session_state:
         }
     )
 
+
+# Disclaimer
+st.warning(
+    """ 
+    This is a  prototype demonstrating an AI chatbot. 
+    Restaurant data is limited and for educational purposes only.
+
+    Please verify restaurant information through Google Maps, Yelp, 
+    or official sources before visiting.
+
+    Not intended for real-world use.
+    """
+)
 # App Header
 st.title("🍽️ Cuisine Guide Chatbot")
 st.markdown(
