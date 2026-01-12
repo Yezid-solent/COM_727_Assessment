@@ -12,61 +12,61 @@ from chatbot import predict_class, get_response, intents
 print("Script is running")
 
 st.set_page_config(page_title="Cuisine Guide Chatbot", page_icon="🍽️", layout="centered")
-# st.markdown(
-#     """
-#     <style>
-#     .stApp {
-#         background-color: #f0f2f6;
-#     }
-#     ...
-#     </style>
-# """,
-#     unsafe_allow_html=True,
-# )
 st.markdown(
     """
     <style>
-    /* Improve overall readability */
-    body {
-        color: inherit;
+    .stApp {
+        background-color: #f0f2f6;
     }
-
-    /* Chat message containers */
-    .stChatMessage {
-        padding: 12px;
-        border-radius: 10px;
-        margin-bottom: 8px;
-    }
-
-    /* User messages */
-    .stChatMessage.user {
-        background-color: rgba(0, 123, 255, 0.15);
-    }
-
-    /* Assistant messages */
-    .stChatMessage.assistant {
-        background-color: rgba(40, 167, 69, 0.15);
-    }
-
-    /* Input box */
-    textarea {
-        border-radius: 8px !important;
-    }
-
-    /* Buttons */
-    button {
-        border-radius: 8px !important;
-        font-weight: 600;
-    }
-
-    /* Header text */
-    h1, h2, h3 {
-        font-weight: 700;
-    }
+    ...
     </style>
-    """,
+""",
     unsafe_allow_html=True,
 )
+# st.markdown(
+#     """
+#     <style>
+#     /* Improve overall readability */
+#     body {
+#         color: inherit;
+#     }
+
+#     /* Chat message containers */
+#     .stChatMessage {
+#         padding: 12px;
+#         border-radius: 10px;
+#         margin-bottom: 8px;
+#     }
+
+#     /* User messages */
+#     .stChatMessage.user {
+#         background-color: rgba(0, 123, 255, 0.15);
+#     }
+
+#     /* Assistant messages */
+#     .stChatMessage.assistant {
+#         background-color: rgba(40, 167, 69, 0.15);
+#     }
+
+#     /* Input box */
+#     textarea {
+#         border-radius: 8px !important;
+#     }
+
+#     /* Buttons */
+#     button {
+#         border-radius: 8px !important;
+#         font-weight: 600;
+#     }
+
+#     /* Header text */
+#     h1, h2, h3 {
+#         font-weight: 700;
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
 
 
 # Load model
