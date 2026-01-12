@@ -99,7 +99,7 @@ if "messages" not in st.session_state:
 # Disclaimer
 st.warning(
     """ 
-    This is a  prototype demonstrating an AI chatbot. 
+    This is an AI chatbot prototype. 
     Restaurant data is limited and for educational purposes only.
 
     Please verify restaurant information through Google Maps, Yelp, 
