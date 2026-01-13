@@ -102,8 +102,7 @@ st.warning(
     This is an AI chatbot prototype. 
     Restaurant data is limited and for educational purposes only.
 
-    Please verify restaurant information through Google Maps, Yelp, 
-    or official sources before visiting.
+    Please verify restaurant information on official sources before visiting.
 
     Not intended for real-world use.
     """
